@@ -1,0 +1,172 @@
+/*
+	The original Militia v1.2 skin for phpBB version 2+
+	Created by Mike Lothar (c) 2004 - 2006
+	http://www.mikelothar.com
+	Do not remove this note
+*/
+
+/* Delete these two lines below to get smaller font size throughout the skin */
+.diffstyle, .diffstyle a {font-size: 11px; line-height: 14px;}
+.diffstyletitles, .diffstyletitles a {font-size: 11px;}
+
+html {height: 100%;}
+
+body {
+	height: 100%;
+	background-color: #000;
+	background-image: url('images/psycho.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	text-align: left;
+	vertical-align: top;
+	scrollbar-base-color : #666666;
+	scrollbar-arrow-color : #FFFFFF;}
+
+table, table td, html, body, form, p {margin: 0; padding: 0; border: 0; vertical-align: top; text-align: left;}
+
+div.right {float: right;}	div.clear {clear: both;} div.left {float: left;}
+	span.right {float: right;}	span.clear {clear: both;} span.left {float: left;}
+
+.pad25left {padding-left: 25px;}
+
+.minheight {height: 140px;}
+
+.avatar {display: block;}
+	.avatar img {
+		background-color: #fff;
+		border: 2px solid #fff;
+		margin-bottom: 3px;}
+		html>body .avatar img {
+			padding: 2px;
+			background-color: #fff;
+			border: 1px solid #555;
+			margin-bottom: 0px;}
+		.avatarprofile img {
+			background-color: #fff;
+			border: 2px solid #fff;
+			vertical-align: middle;
+			margin-bottom: 2px;}
+			html>body .avatar img {
+				padding: 2px;
+				background-color: #fff;
+				border: 1px solid #555;}
+
+table td, div, table td a, div a {color: #0E0E0E; font: 10px/13px Verdana, Arial, Helvetica, sans-serif;}
+	table td a, div a {text-decoration: underline;}
+	table td a:hover, div a:hover {text-decoration: none;}
+	
+.fatyellow, .fatyellow a {font-weight: bold; color: #F6EC36;}
+
+table#bgtable {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/tablebg.jpg');
+	background-repeat: repeat-x;
+	background-position: bottom left;}
+
+div#width {width: 928px;}
+
+table#maintable {width: 100%;}
+
+td#toptxt {height: 132px; text-align: right;}
+
+td#topimage {height: 250px; text-align: right;}
+	td#topimage img {border: 0;}
+
+td#menu {text-align: right;}
+
+div#menu {
+	height: 74px;
+	width: 779px;
+	background-color: #F6EC36;
+	text-align: left;
+	font-size: 1px;
+	margin: 12px 0 12px auto;
+	padding: 20px 25px 0;}
+	html>body div#menu {height: 54px; width: 729px; margin-top: 9px;}
+	div#menu img {border: 0;}
+
+table.content {width: 100%;}
+	table.content td.ctrl_left {height: 12px; line-height: 12px; font-size: 1px;}
+	table.content td.ctrl_padding {background-color: #fff; height: 12px; line-height: 12px; font-size: 1px;}
+	table.content td.ctrl_dummy {background-color: #fff; height: 12px; line-height: 12px; font-size: 1px;}
+	table.content td.ctrl_stretch {width: 100%; background-color: #fff; height: 12px; line-height: 12px; font-size: 1px;}
+	table.content td.ctrl_fixed150 {background-color: #fff; height: 12px; line-height: 12px; font-size: 1px; width: 160px;}
+		table.content td.ctrl_left img {width: 149px; height: 1px;}
+		table.content td.ctrl_sideborder {background-color: #fff;}
+		table.content td.ctrl_sideborder img {width: 12px; height: 1px;}
+		table.content td.ctrl_padding img {width: 25px; height: 1px;}
+		table.content td.ctrl_fixed150 img {width: 150px; height: 1px;}
+			table.content td.topborder {font-size: 1px; background-color: #fff; height: 12px; line-height: 0;}
+			table.content td.sideborder {font-size: 1px; height: 0; line-height: 0; background-color: #fff;}
+			table.content td.padding {font-size: 1px; background-color: #8B8B8B;}
+			table.content td.image_left {height: 12px; line-height: 12px; font-size: 1px; text-align: right; vertical-align: top;}
+			table.content td.copyright {background-color: #4B4B4B;}
+			table.content td.leftcontent {background-color: #8B8B8B;}
+			table.content td.topspacing {background-color: #8B8B8B; font-size: 1px; line-height: 12px;}
+			table.content td.bottomspacing {background-color: #8B8B8B; font-size: 1px;line-height: 13px;}
+			table.content td.contentpadding {padding: 10px 0 9px;} html>body 	table.content td.contentpadding {padding: 10px 0 8px;}
+
+div.block {padding: 22px 0;}
+div.blockrepeat {padding: 22px 0 0;}
+
+div.topicadminbuttons {float: left; background-color: #8B8B8B;}
+
+div.blackblock {
+	background-image: url('images/blackblockbg.jpg');
+	background-color: #282828;
+	padding: 0 25px;
+	height: 38px;}
+	div.blackblock, div.blackblock a {
+		font-weight: bold;
+		color: #F6EC36;
+		line-height: 36px;}
+
+#adminpanel, #adminpanel a {color: #F6EC36; white-space: nowrap;}
+
+table.quote, table.code {
+	width: 99%;
+	background-color: #999;
+	border: 3px solid #333;
+	margin-top: 5px;}
+	table.code {background-color: #ddd;}
+	table.quote td.title, table.code td.title {background-color: #333; color: #eee; padding: 5px 7px 8px; font-weight: bold;}
+	table.quote td.content {font-size: 10; padding: 7px;}
+	table.code td.content {font-family: "Courier New", Courier, mono; font-size: 12; padding: 10px;}
+	
+#copyrighticons {text-align: right;}
+	#copyrighticons img {border: 0; margin-left: 7px;}
+		html>body #copyrighticons img {margin-left: 0;}
+		html>body #copyrighticons a {margin-left: 7px;}
+
+input.post, input.button, .checkbox, select, textarea, .helpline {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #0E0E0E; padding: 1px 4px; margin: 0; vertical-align: middle;}
+	html>body input.post, input.button, select {vertical-align: baseline;}
+	input.post, select, textarea {border: 2px solid #555; margin-bottom: 1px;}
+		html>body input.post, select, textarea {margin-bottom: 0;}	html>body .checkbox {margin-bottom: 2px;} html>body select {padding: 1px 0;}
+
+.helpline {border: 2px solid #8B8B8B; border-width: 3px 0; background-color: #8B8B8B; color: #111;}
+
+.newposticon {margin: 3px 0;} html>body .newposticon {margin: 3px 0 0;}
+
+.noimage img {display: none;}
+
+.iconspacing {font-size: 0;}	.iconspacing img {margin-left: 2px;}
+
+.lineafterbutton {
+	background-image: url('images/horizontaldot.gif');
+	background-repeat: repeat-x;
+	background-position: center center;}
+		
+.vert-line-top {position: relative; top: 1; margin: 0 10px 0 6px;}
+	html>body .vert-line-top {top: 0;}
+	.vert-line-top img, .vert-line-bottom img {vertical-align: middle;}
+	.vert-line-bottom {position: relative; top: 0; margin: 0 10px 0 6px;}
+		html>body .vert-line-bottom {top: -1;}
+
+.line-l2r {
+	background-image: url('images/horizontaldot.gif');
+	background-repeat: repeat-x;
+	background-position: center center;
+	position: relative; top: 4px;
+	line-height: 1px;
+	margin-bottom: 8px;}
