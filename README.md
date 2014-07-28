@@ -1,3 +1,5 @@
+![](/screenshots/militia.png)
+
 ![](/screenshots/layout06_nobrowser.jpg)
 
 ![](/screenshots/viewforum.jpg)
